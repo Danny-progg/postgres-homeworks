@@ -2,7 +2,7 @@
 CREATE TABLE student
 (
     student_id serial,
-    first_name varchar PRIMARY KEY,
+    first_name varchar,
     last_name varchar,
     birthday date,
     phone varchar
